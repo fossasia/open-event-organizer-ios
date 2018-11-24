@@ -1,2 +1,1 @@
-# dev.openvent.io
-Developer Site for Open Event at http://dev.openevent.io
+# Open Event Orga iOS App
