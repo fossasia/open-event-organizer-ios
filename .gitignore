@@ -1,0 +1,41 @@
+# Xcode
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+
+Packages/
+Package.pins
+.build/
+
+# CocoaPods
+
+Pods/*
+
+# Folders
+
+Susi.xcodeproj/xcuserdata/
+Susi.xcworkspace/xcuserdata/
+
+# Ignore MacOS DS_Store files
+
+*.DS_Store
