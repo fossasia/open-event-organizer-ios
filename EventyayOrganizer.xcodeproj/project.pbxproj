@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		194E0D5D0CC9C8A20D931826 /* Pods_Eventyay_OrganizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD2E33D57636FEAAF5F72661 /* Pods_Eventyay_OrganizerUITests.framework */; };
 		403D71F721AAE370008D9E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D71F621AAE370008D9E9F /* AppDelegate.swift */; };
 		403D71F921AAE371008D9E9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D71F821AAE371008D9E9F /* ViewController.swift */; };
 		403D71FC21AAE371008D9E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403D71FA21AAE371008D9E9F /* Main.storyboard */; };
 		403D71FE21AAE375008D9E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403D71FD21AAE375008D9E9F /* Assets.xcassets */; };
 		403D720121AAE375008D9E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403D71FF21AAE375008D9E9F /* LaunchScreen.storyboard */; };
 		403D720C21AAE375008D9E9F /* Eventyay_OrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D720B21AAE375008D9E9F /* Eventyay_OrganizerUITests.swift */; };
-		C2A1045EA001C907BFA62441 /* Pods_Eventyay_Organizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF19EB70056370EBE796C1DE /* Pods_Eventyay_Organizer.framework */; };
+		8BA35EC6DC4D9196E0C598CA /* Pods_EventyayOrganizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */; };
+		BEE49886A23120F4577C7772 /* Pods_EventyayOrganizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,22 +28,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		403D71F321AAE370008D9E9F /* Eventyay Organizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eventyay Organizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B48E7757D136D9306528CD4 /* Pods-EventyayOrganizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer.release.xcconfig"; sourceTree = "<group>"; };
+		403D71F321AAE370008D9E9F /* EventyayOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventyayOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		403D71F621AAE370008D9E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		403D71F821AAE371008D9E9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		403D71FB21AAE371008D9E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		403D71FD21AAE375008D9E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		403D720021AAE375008D9E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		403D720221AAE375008D9E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		403D720721AAE375008D9E9F /* Eventyay OrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eventyay OrganizerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		403D720721AAE375008D9E9F /* EventyayOrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventyayOrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403D720B21AAE375008D9E9F /* Eventyay_OrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eventyay_OrganizerUITests.swift; sourceTree = "<group>"; };
 		403D720D21AAE376008D9E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		92B01F002AE80C41B55D3A90 /* Pods-Eventyay OrganizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventyay OrganizerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eventyay OrganizerUITests/Pods-Eventyay OrganizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		9766B3F091C06BFC31CE4C98 /* Pods-Eventyay OrganizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventyay OrganizerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eventyay OrganizerUITests/Pods-Eventyay OrganizerUITests.release.xcconfig"; sourceTree = "<group>"; };
-		A96FB2E220B35F7A5501716E /* Pods-Eventyay Organizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventyay Organizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eventyay Organizer/Pods-Eventyay Organizer.debug.xcconfig"; sourceTree = "<group>"; };
-		AAF2194E7B6018A3935F2B62 /* Pods-Eventyay Organizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eventyay Organizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eventyay Organizer/Pods-Eventyay Organizer.release.xcconfig"; sourceTree = "<group>"; };
-		CD2E33D57636FEAAF5F72661 /* Pods_Eventyay_OrganizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eventyay_OrganizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF19EB70056370EBE796C1DE /* Pods_Eventyay_Organizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eventyay_Organizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E59065288D7D7AE05B20526 /* Pods-EventyayOrganizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer.debug.xcconfig"; sourceTree = "<group>"; };
+		5E323D8B8C9F2A87D027E2CD /* Pods-EventyayOrganizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventyayOrganizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73F39BE5BCAC0554BF47070 /* Pods-EventyayOrganizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventyayOrganizerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2A1045EA001C907BFA62441 /* Pods_Eventyay_Organizer.framework in Frameworks */,
+				BEE49886A23120F4577C7772 /* Pods_EventyayOrganizer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				194E0D5D0CC9C8A20D931826 /* Pods_Eventyay_OrganizerUITests.framework in Frameworks */,
+				8BA35EC6DC4D9196E0C598CA /* Pods_EventyayOrganizerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,8 +69,8 @@
 		0E840257897F799AB3B846D9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FF19EB70056370EBE796C1DE /* Pods_Eventyay_Organizer.framework */,
-				CD2E33D57636FEAAF5F72661 /* Pods_Eventyay_OrganizerUITests.framework */,
+				A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */,
+				E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -78,8 +78,8 @@
 		403D71EA21AAE370008D9E9F = {
 			isa = PBXGroup;
 			children = (
-				403D71F521AAE370008D9E9F /* Eventyay Organizer */,
-				403D720A21AAE375008D9E9F /* Eventyay OrganizerUITests */,
+				403D71F521AAE370008D9E9F /* EventyayOrganizer */,
+				403D720A21AAE375008D9E9F /* EventyayOrganizerUITests */,
 				403D71F421AAE370008D9E9F /* Products */,
 				C90AFB930213855CFD590E3B /* Pods */,
 				0E840257897F799AB3B846D9 /* Frameworks */,
@@ -89,13 +89,13 @@
 		403D71F421AAE370008D9E9F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				403D71F321AAE370008D9E9F /* Eventyay Organizer.app */,
-				403D720721AAE375008D9E9F /* Eventyay OrganizerUITests.xctest */,
+				403D71F321AAE370008D9E9F /* EventyayOrganizer.app */,
+				403D720721AAE375008D9E9F /* EventyayOrganizerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		403D71F521AAE370008D9E9F /* Eventyay Organizer */ = {
+		403D71F521AAE370008D9E9F /* EventyayOrganizer */ = {
 			isa = PBXGroup;
 			children = (
 				403D71F621AAE370008D9E9F /* AppDelegate.swift */,
@@ -105,25 +105,25 @@
 				403D71FF21AAE375008D9E9F /* LaunchScreen.storyboard */,
 				403D720221AAE375008D9E9F /* Info.plist */,
 			);
-			path = "Eventyay Organizer";
+			path = EventyayOrganizer;
 			sourceTree = "<group>";
 		};
-		403D720A21AAE375008D9E9F /* Eventyay OrganizerUITests */ = {
+		403D720A21AAE375008D9E9F /* EventyayOrganizerUITests */ = {
 			isa = PBXGroup;
 			children = (
 				403D720B21AAE375008D9E9F /* Eventyay_OrganizerUITests.swift */,
 				403D720D21AAE376008D9E9F /* Info.plist */,
 			);
-			path = "Eventyay OrganizerUITests";
+			path = EventyayOrganizerUITests;
 			sourceTree = "<group>";
 		};
 		C90AFB930213855CFD590E3B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A96FB2E220B35F7A5501716E /* Pods-Eventyay Organizer.debug.xcconfig */,
-				AAF2194E7B6018A3935F2B62 /* Pods-Eventyay Organizer.release.xcconfig */,
-				92B01F002AE80C41B55D3A90 /* Pods-Eventyay OrganizerUITests.debug.xcconfig */,
-				9766B3F091C06BFC31CE4C98 /* Pods-Eventyay OrganizerUITests.release.xcconfig */,
+				4E59065288D7D7AE05B20526 /* Pods-EventyayOrganizer.debug.xcconfig */,
+				3B48E7757D136D9306528CD4 /* Pods-EventyayOrganizer.release.xcconfig */,
+				E73F39BE5BCAC0554BF47070 /* Pods-EventyayOrganizerUITests.debug.xcconfig */,
+				5E323D8B8C9F2A87D027E2CD /* Pods-EventyayOrganizerUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -131,27 +131,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		403D71F221AAE370008D9E9F /* Eventyay Organizer */ = {
+		403D71F221AAE370008D9E9F /* EventyayOrganizer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 403D721021AAE376008D9E9F /* Build configuration list for PBXNativeTarget "Eventyay Organizer" */;
+			buildConfigurationList = 403D721021AAE376008D9E9F /* Build configuration list for PBXNativeTarget "EventyayOrganizer" */;
 			buildPhases = (
 				27B750F2C1C426A8F8742869 /* [CP] Check Pods Manifest.lock */,
 				403D71EF21AAE370008D9E9F /* Sources */,
 				403D71F021AAE370008D9E9F /* Frameworks */,
 				403D71F121AAE370008D9E9F /* Resources */,
+				E3E7D204CE2C399B484A83BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Eventyay Organizer";
+			name = EventyayOrganizer;
 			productName = "Eventyay Organizer";
-			productReference = 403D71F321AAE370008D9E9F /* Eventyay Organizer.app */;
+			productReference = 403D71F321AAE370008D9E9F /* EventyayOrganizer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		403D720621AAE375008D9E9F /* Eventyay OrganizerUITests */ = {
+		403D720621AAE375008D9E9F /* EventyayOrganizerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 403D721321AAE376008D9E9F /* Build configuration list for PBXNativeTarget "Eventyay OrganizerUITests" */;
+			buildConfigurationList = 403D721321AAE376008D9E9F /* Build configuration list for PBXNativeTarget "EventyayOrganizerUITests" */;
 			buildPhases = (
 				7BDD60F1CF811E05925F95BD /* [CP] Check Pods Manifest.lock */,
 				403D720321AAE375008D9E9F /* Sources */,
@@ -164,9 +165,9 @@
 			dependencies = (
 				403D720921AAE375008D9E9F /* PBXTargetDependency */,
 			);
-			name = "Eventyay OrganizerUITests";
+			name = EventyayOrganizerUITests;
 			productName = "Eventyay OrganizerUITests";
-			productReference = 403D720721AAE375008D9E9F /* Eventyay OrganizerUITests.xctest */;
+			productReference = 403D720721AAE375008D9E9F /* EventyayOrganizerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -188,7 +189,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 403D71EE21AAE370008D9E9F /* Build configuration list for PBXProject "Eventyay Organizer" */;
+			buildConfigurationList = 403D71EE21AAE370008D9E9F /* Build configuration list for PBXProject "EventyayOrganizer" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -201,8 +202,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				403D71F221AAE370008D9E9F /* Eventyay Organizer */,
-				403D720621AAE375008D9E9F /* Eventyay OrganizerUITests */,
+				403D71F221AAE370008D9E9F /* EventyayOrganizer */,
+				403D720621AAE375008D9E9F /* EventyayOrganizerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +235,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Eventyay OrganizerUITests/Pods-Eventyay OrganizerUITests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
-				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
-				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Eventyay OrganizerUITests/Pods-Eventyay OrganizerUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27B750F2C1C426A8F8742869 /* [CP] Check Pods Manifest.lock */ = {
@@ -261,7 +258,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Eventyay Organizer-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EventyayOrganizer-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -279,11 +276,35 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Eventyay OrganizerUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EventyayOrganizerUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3E7D204CE2C399B484A83BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -311,7 +332,7 @@
 /* Begin PBXTargetDependency section */
 		403D720921AAE375008D9E9F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 403D71F221AAE370008D9E9F /* Eventyay Organizer */;
+			target = 403D71F221AAE370008D9E9F /* EventyayOrganizer */;
 			targetProxy = 403D720821AAE375008D9E9F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -456,13 +477,13 @@
 		};
 		403D721121AAE376008D9E9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A96FB2E220B35F7A5501716E /* Pods-Eventyay Organizer.debug.xcconfig */;
+			baseConfigurationReference = 4E59065288D7D7AE05B20526 /* Pods-EventyayOrganizer.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
-				INFOPLIST_FILE = "Eventyay Organizer/Info.plist";
+				INFOPLIST_FILE = EventyayOrganizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,13 +497,13 @@
 		};
 		403D721221AAE376008D9E9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AAF2194E7B6018A3935F2B62 /* Pods-Eventyay Organizer.release.xcconfig */;
+			baseConfigurationReference = 3B48E7757D136D9306528CD4 /* Pods-EventyayOrganizer.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
-				INFOPLIST_FILE = "Eventyay Organizer/Info.plist";
+				INFOPLIST_FILE = EventyayOrganizer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -496,7 +517,7 @@
 		};
 		403D721421AAE376008D9E9F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92B01F002AE80C41B55D3A90 /* Pods-Eventyay OrganizerUITests.debug.xcconfig */;
+			baseConfigurationReference = E73F39BE5BCAC0554BF47070 /* Pods-EventyayOrganizerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
@@ -517,7 +538,7 @@
 		};
 		403D721521AAE376008D9E9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9766B3F091C06BFC31CE4C98 /* Pods-Eventyay OrganizerUITests.release.xcconfig */;
+			baseConfigurationReference = 5E323D8B8C9F2A87D027E2CD /* Pods-EventyayOrganizerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
@@ -539,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		403D71EE21AAE370008D9E9F /* Build configuration list for PBXProject "Eventyay Organizer" */ = {
+		403D71EE21AAE370008D9E9F /* Build configuration list for PBXProject "EventyayOrganizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				403D720E21AAE376008D9E9F /* Debug */,
@@ -548,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		403D721021AAE376008D9E9F /* Build configuration list for PBXNativeTarget "Eventyay Organizer" */ = {
+		403D721021AAE376008D9E9F /* Build configuration list for PBXNativeTarget "EventyayOrganizer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				403D721121AAE376008D9E9F /* Debug */,
@@ -557,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		403D721321AAE376008D9E9F /* Build configuration list for PBXNativeTarget "Eventyay OrganizerUITests" */ = {
+		403D721321AAE376008D9E9F /* Build configuration list for PBXNativeTarget "EventyayOrganizerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				403D721421AAE376008D9E9F /* Debug */,
