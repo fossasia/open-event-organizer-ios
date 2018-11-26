@@ -18,16 +18,16 @@ then
         # Checkout a temporary branch to delete original ipa branch later
         git checkout --orphan temp
 
-        cp -r $HOME/Library/Developer/Xcode/DerivedData/Susi-*/Build/Products/Debug-iphonesimulator/Eventyay Organizer.app Eventyay Organizer.app
+        cp -r $HOME/Library/Developer/Xcode/DerivedData/Susi-*/Build/Products/Debug-iphonesimulator/Eventyay\ Organizer.app Eventyay\ Organizer.app
         mkdir Payload
-        mv Eventyay Organizer.app Payload/
+        mv Eventyay\ Organizer.app Payload/
         zip -r Payload.zip Payload
-        mv Payload.zip Eventyay Organizer.ipa
+        mv Payload.zip Eventyay\ Organizer.ipa
         rm -rf Payload/
         ls -a
 
 	# Add the Eventyay Organizer ipa
-        git add Eventyay Organizer.ipa
+        git add Eventyay \Organizer.ipa
 
         git commit -am "[Circle CI] Updated Eventyay Organizer.ipa"
         
