@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "403D71F221AAE370008D9E9F"
-               BuildableName = "Eventyay Organizer.app"
-               BlueprintName = "Eventyay Organizer"
-               ReferencedContainer = "container:Eventyay Organizer.xcodeproj">
+               BuildableName = "EventyayOrganizer.app"
+               BlueprintName = "EventyayOrganizer"
+               ReferencedContainer = "container:EventyayOrganizer.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "403D720621AAE375008D9E9F"
-               BuildableName = "Eventyay OrganizerUITests.xctest"
-               BlueprintName = "Eventyay OrganizerUITests"
-               ReferencedContainer = "container:Eventyay Organizer.xcodeproj">
+               BuildableName = "EventyayOrganizerUITests.xctest"
+               BlueprintName = "EventyayOrganizerUITests"
+               ReferencedContainer = "container:EventyayOrganizer.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "403D71F221AAE370008D9E9F"
-            BuildableName = "Eventyay Organizer.app"
-            BlueprintName = "Eventyay Organizer"
-            ReferencedContainer = "container:Eventyay Organizer.xcodeproj">
+            BuildableName = "EventyayOrganizer.app"
+            BlueprintName = "EventyayOrganizer"
+            ReferencedContainer = "container:EventyayOrganizer.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "403D71F221AAE370008D9E9F"
-            BuildableName = "Eventyay Organizer.app"
-            BlueprintName = "Eventyay Organizer"
-            ReferencedContainer = "container:Eventyay Organizer.xcodeproj">
+            BuildableName = "EventyayOrganizer.app"
+            BlueprintName = "EventyayOrganizer"
+            ReferencedContainer = "container:EventyayOrganizer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "403D71F221AAE370008D9E9F"
-            BuildableName = "Eventyay Organizer.app"
-            BlueprintName = "Eventyay Organizer"
-            ReferencedContainer = "container:Eventyay Organizer.xcodeproj">
+            BuildableName = "EventyayOrganizer.app"
+            BlueprintName = "EventyayOrganizer"
+            ReferencedContainer = "container:EventyayOrganizer.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
