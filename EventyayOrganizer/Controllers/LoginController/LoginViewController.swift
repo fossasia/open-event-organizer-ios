@@ -7,24 +7,23 @@
 //
 
 import UIKit
+import Material
+import M13Checkbox
 
 class LoginViewController: UIViewController {
 
+    // MARK: - Outlests
+
+    @IBOutlet weak var emailTextField: TextField!
+    @IBOutlet weak var passwordTextField: TextField!
+    @IBOutlet weak var personalServerButton: M13Checkbox!
+    @IBOutlet weak var loginButton: RaisedButton!
+    @IBOutlet weak var signUpButton: FlatButton!
+    @IBOutlet weak var forgotButton: FlatButton!
+    @IBOutlet weak var addressTextField: TextField!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
