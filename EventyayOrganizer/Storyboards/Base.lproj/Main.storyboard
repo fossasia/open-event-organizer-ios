@@ -45,18 +45,22 @@
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Password"/>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isVisibilityIconButtonEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="dividerColor">
+                                        <color key="value" name="OrgaBlue"/>
+                                    </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJx-KV-t2Q" customClass="M13Checkbox">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJx-KV-t2Q" customClass="M13Checkbox" customModule="M13Checkbox">
                                 <rect key="frame" x="16" y="268" width="24" height="24"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" name="OrgaBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="24" id="fU9-fO-vRP"/>
                                     <constraint firstAttribute="height" constant="24" id="x7B-X0-ds2"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="_IBStateChangeAnimation" value=".fill"/>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="_IBMarkType" value=". checkmark"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_IBMarkType" value=".checkmark"/>
                                     <userDefinedRuntimeAttribute type="number" keyPath="boxLineWidth">
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
@@ -80,6 +84,12 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="dividerColor">
+                                        <color key="value" name="OrgaBlue"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Custom Server URL"/>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTA-h3-0gY" customClass="RaisedButton" customModule="Material">
                                 <rect key="frame" x="16" y="312" width="343" height="44"/>
