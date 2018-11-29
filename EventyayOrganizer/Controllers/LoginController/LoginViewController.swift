@@ -24,6 +24,11 @@ class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        addTapGesture()
+        prepareEmailField()
+        preparePasswordField()
+        prepareAddressField()
     }
 
 }

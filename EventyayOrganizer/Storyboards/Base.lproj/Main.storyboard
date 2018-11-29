@@ -52,7 +52,6 @@
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJx-KV-t2Q" customClass="M13Checkbox" customModule="M13Checkbox">
                                 <rect key="frame" x="16" y="268" width="24" height="24"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" name="OrgaBlue"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="24" id="fU9-fO-vRP"/>
@@ -75,6 +74,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="hideBox" value="NO"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="toggleRadioButtons:" destination="BYZ-38-t0r" eventType="valueChanged" id="t01-iP-Wr5"/>
+                                </connections>
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PVv-F5-qpH" customClass="TextField" customModule="Material">
                                 <rect key="frame" x="48" y="264" width="311" height="30"/>
@@ -88,7 +90,6 @@
                                     <userDefinedRuntimeAttribute type="color" keyPath="dividerColor">
                                         <color key="value" name="OrgaBlue"/>
                                     </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Custom Server URL"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTA-h3-0gY" customClass="RaisedButton" customModule="Material">
@@ -115,7 +116,7 @@
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="yJx-KV-t2Q" firstAttribute="top" secondItem="T51-FH-x0G" secondAttribute="bottom" constant="28" id="0Jz-Ti-OeQ"/>
                             <constraint firstItem="yJx-KV-t2Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0R7-Ww-Lib"/>
