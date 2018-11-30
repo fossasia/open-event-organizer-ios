@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4020D0D921B10CF9006A7967 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020D0D821B10CF9006A7967 /* SignUpViewController.swift */; };
+		4020D0DB21B10D2D006A7967 /* SignUpVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020D0DA21B10D2D006A7967 /* SignUpVCMethods.swift */; };
 		403D71F721AAE370008D9E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D71F621AAE370008D9E9F /* AppDelegate.swift */; };
 		403D71F921AAE371008D9E9F /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D71F821AAE371008D9E9F /* AppNavigationController.swift */; };
 		403D71FC21AAE371008D9E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403D71FA21AAE371008D9E9F /* Main.storyboard */; };
@@ -33,6 +35,8 @@
 
 /* Begin PBXFileReference section */
 		3B48E7757D136D9306528CD4 /* Pods-EventyayOrganizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer.release.xcconfig"; sourceTree = "<group>"; };
+		4020D0D821B10CF9006A7967 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		4020D0DA21B10D2D006A7967 /* SignUpVCMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVCMethods.swift; sourceTree = "<group>"; };
 		403D71F321AAE370008D9E9F /* EventyayOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventyayOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		403D71F621AAE370008D9E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		403D71F821AAE371008D9E9F /* AppNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
@@ -81,6 +85,15 @@
 				E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4020D0DC21B10D4B006A7967 /* SignUpController */ = {
+			isa = PBXGroup;
+			children = (
+				4020D0D821B10CF9006A7967 /* SignUpViewController.swift */,
+				4020D0DA21B10D2D006A7967 /* SignUpVCMethods.swift */,
+			);
+			path = SignUpController;
 			sourceTree = "<group>";
 		};
 		403D71EA21AAE370008D9E9F = {
@@ -155,6 +168,7 @@
 			children = (
 				403D71F821AAE371008D9E9F /* AppNavigationController.swift */,
 				407E723821AFF89200667B83 /* LoginController */,
+				4020D0DC21B10D4B006A7967 /* SignUpController */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -375,7 +389,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				407E723521AFF81F00667B83 /* LoginViewController.swift in Sources */,
+				4020D0D921B10CF9006A7967 /* SignUpViewController.swift in Sources */,
 				407E723C21B0020300667B83 /* Extensions.swift in Sources */,
+				4020D0DB21B10D2D006A7967 /* SignUpVCMethods.swift in Sources */,
 				407E723A21B0015E00667B83 /* Colors.swift in Sources */,
 				407E723721AFF86E00667B83 /* LoginVCMethods.swift in Sources */,
 				403D71F921AAE371008D9E9F /* AppNavigationController.swift in Sources */,
