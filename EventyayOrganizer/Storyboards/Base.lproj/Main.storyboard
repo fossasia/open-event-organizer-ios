@@ -232,6 +232,9 @@
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="hideBox" value="NO"/>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="toggleRadioButtons:" destination="WfM-Vw-WES" eventType="valueChanged" id="2sc-oX-Qxa"/>
+                                </connections>
                             </view>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bwx-Ni-6DP" customClass="TextField" customModule="Material">
                                 <rect key="frame" x="48" y="326" width="311" height="30"/>
