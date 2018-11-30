@@ -9,5 +9,9 @@
 import UIKit
 
 extension SignUpViewController {
+
+    @IBAction func goBackToLoginScreen() {
+        self.dismiss(animated: true, completion: nil)
+    }
     
 }
