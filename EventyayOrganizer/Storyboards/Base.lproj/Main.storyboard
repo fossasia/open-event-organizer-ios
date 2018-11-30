@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LoginController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LoginViewController" customModule="EventyayOrganizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get started" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkd-qi-22a">
+                                <rect key="frame" x="16" y="84" width="343" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" name="OrgaBlue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JiU-BN-sjV" customClass="TextField" customModule="Material">
+                                <rect key="frame" x="16" y="150" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Email Address"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isClearIconButtonEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="dividerColor">
+                                        <color key="value" name="OrgaBlue"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T51-FH-x0G" customClass="TextField" customModule="Material">
+                                <rect key="frame" x="16" y="210" width="343" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="placeholder" value="Password"/>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="isVisibilityIconButtonEnabled" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="dividerColor">
+                                        <color key="value" name="OrgaBlue"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yJx-KV-t2Q" customClass="M13Checkbox" customModule="M13Checkbox">
+                                <rect key="frame" x="16" y="268" width="24" height="24"/>
+                                <color key="tintColor" name="OrgaBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="fU9-fO-vRP"/>
+                                    <constraint firstAttribute="height" constant="24" id="x7B-X0-ds2"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_IBStateChangeAnimation" value=".fill"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_IBMarkType" value=".checkmark"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="boxLineWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="checkmarkLineWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondaryTintColor">
+                                        <color key="value" name="OrgaBlue"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="secondaryCheckmarkTintColor">
+                                        <color key="value" name="OrgaBlue"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="hideBox" value="NO"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="toggleRadioButtons:" destination="BYZ-38-t0r" eventType="valueChanged" id="t01-iP-Wr5"/>
+                                </connections>
+                            </view>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PVv-F5-qpH" customClass="TextField" customModule="Material">
+                                <rect key="frame" x="48" y="264" width="311" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="asM-KR-G06"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="dividerColor">
+                                        <color key="value" name="OrgaBlue"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTA-h3-0gY" customClass="RaisedButton" customModule="Material">
+                                <rect key="frame" x="16" y="312" width="343" height="44"/>
+                                <color key="backgroundColor" name="OrgaBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="QEj-NF-mC7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <state key="normal" title="LOG IN">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfV-sh-jcY" customClass="FlatButton" customModule="Material">
+                                <rect key="frame" x="16" y="372" width="343" height="30"/>
+                                <state key="normal" title="SIGN UP FOR OPEN EVENT">
+                                    <color key="titleColor" name="OrgaBlue"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fl9-XL-lhX" customClass="FlatButton" customModule="Material">
+                                <rect key="frame" x="16" y="426" width="343" height="30"/>
+                                <state key="normal" title="I FORGOT MY PASSWORD">
+                                    <color key="titleColor" name="OrgaBlue"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yJx-KV-t2Q" firstAttribute="top" secondItem="T51-FH-x0G" secondAttribute="bottom" constant="28" id="0Jz-Ti-OeQ"/>
+                            <constraint firstItem="yJx-KV-t2Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="0R7-Ww-Lib"/>
+                            <constraint firstItem="VTA-h3-0gY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="5p1-GH-OAp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dkd-qi-22a" secondAttribute="trailing" constant="16" id="91B-TV-4vx"/>
+                            <constraint firstItem="T51-FH-x0G" firstAttribute="top" secondItem="JiU-BN-sjV" secondAttribute="bottom" constant="30" id="Dr5-ip-2sD"/>
+                            <constraint firstItem="Fl9-XL-lhX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="EVQ-IG-jqw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JiU-BN-sjV" secondAttribute="trailing" constant="16" id="MhA-m6-rGD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VTA-h3-0gY" secondAttribute="trailing" constant="16" id="OOW-id-sW9"/>
+                            <constraint firstItem="dkd-qi-22a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="Rqo-x1-8fc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="T51-FH-x0G" secondAttribute="trailing" constant="16" id="SfQ-69-NPF"/>
+                            <constraint firstItem="T51-FH-x0G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="b5f-Tx-zfg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UfV-sh-jcY" secondAttribute="trailing" constant="16" id="bfz-Lr-blX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fl9-XL-lhX" secondAttribute="trailing" constant="16" id="biN-46-dXf"/>
+                            <constraint firstItem="UfV-sh-jcY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ciY-xs-asf"/>
+                            <constraint firstItem="Fl9-XL-lhX" firstAttribute="top" secondItem="UfV-sh-jcY" secondAttribute="bottom" constant="24" id="gPA-G3-pPn"/>
+                            <constraint firstItem="JiU-BN-sjV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="giE-Mb-a4Q"/>
+                            <constraint firstItem="PVv-F5-qpH" firstAttribute="leading" secondItem="yJx-KV-t2Q" secondAttribute="trailing" constant="8" id="iJF-Qe-MEW"/>
+                            <constraint firstItem="JiU-BN-sjV" firstAttribute="top" secondItem="dkd-qi-22a" secondAttribute="bottom" constant="30" id="is7-5p-np2"/>
+                            <constraint firstItem="PVv-F5-qpH" firstAttribute="top" secondItem="T51-FH-x0G" secondAttribute="bottom" constant="24" id="kQI-K7-mNa"/>
+                            <constraint firstItem="VTA-h3-0gY" firstAttribute="top" secondItem="yJx-KV-t2Q" secondAttribute="bottom" constant="20" id="mGv-BP-v4i"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PVv-F5-qpH" secondAttribute="trailing" constant="16" id="mts-Xa-xgd"/>
+                            <constraint firstItem="dkd-qi-22a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="p4z-4b-XdM"/>
+                            <constraint firstItem="UfV-sh-jcY" firstAttribute="top" secondItem="VTA-h3-0gY" secondAttribute="bottom" constant="16" id="ynG-J1-Hnz"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="addressTextField" destination="PVv-F5-qpH" id="Ocf-xz-Lqg"/>
+                        <outlet property="emailTextField" destination="JiU-BN-sjV" id="E1D-GN-xeU"/>
+                        <outlet property="forgotButton" destination="Fl9-XL-lhX" id="3bS-1C-ysS"/>
+                        <outlet property="loginButton" destination="VTA-h3-0gY" id="V9A-X4-dM8"/>
+                        <outlet property="passwordTextField" destination="T51-FH-x0G" id="FR4-go-px4"/>
+                        <outlet property="personalServerButton" destination="yJx-KV-t2Q" id="do9-DK-eoM"/>
+                        <outlet property="signUpButton" destination="UfV-sh-jcY" id="rYd-gT-JBw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53.600000000000001" y="27.436281859070466"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="OrgaBlue">
+            <color red="0.16078431372549021" green="0.58823529411764708" blue="0.95294117647058818" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

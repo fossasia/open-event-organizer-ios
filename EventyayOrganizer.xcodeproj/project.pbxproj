@@ -8,11 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		403D71F721AAE370008D9E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D71F621AAE370008D9E9F /* AppDelegate.swift */; };
-		403D71F921AAE371008D9E9F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D71F821AAE371008D9E9F /* ViewController.swift */; };
+		403D71F921AAE371008D9E9F /* AppNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D71F821AAE371008D9E9F /* AppNavigationController.swift */; };
 		403D71FC21AAE371008D9E9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403D71FA21AAE371008D9E9F /* Main.storyboard */; };
 		403D71FE21AAE375008D9E9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403D71FD21AAE375008D9E9F /* Assets.xcassets */; };
 		403D720121AAE375008D9E9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403D71FF21AAE375008D9E9F /* LaunchScreen.storyboard */; };
 		403D720C21AAE375008D9E9F /* Eventyay_OrganizerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D720B21AAE375008D9E9F /* Eventyay_OrganizerUITests.swift */; };
+		407E723521AFF81F00667B83 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723421AFF81F00667B83 /* LoginViewController.swift */; };
+		407E723721AFF86E00667B83 /* LoginVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723621AFF86E00667B83 /* LoginVCMethods.swift */; };
+		407E723A21B0015E00667B83 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723921B0015E00667B83 /* Colors.swift */; };
+		407E723C21B0020300667B83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723B21B0020300667B83 /* Extensions.swift */; };
 		8BA35EC6DC4D9196E0C598CA /* Pods_EventyayOrganizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */; };
 		BEE49886A23120F4577C7772 /* Pods_EventyayOrganizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */; };
 /* End PBXBuildFile section */
@@ -31,7 +35,7 @@
 		3B48E7757D136D9306528CD4 /* Pods-EventyayOrganizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer.release.xcconfig"; sourceTree = "<group>"; };
 		403D71F321AAE370008D9E9F /* EventyayOrganizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventyayOrganizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		403D71F621AAE370008D9E9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		403D71F821AAE371008D9E9F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		403D71F821AAE371008D9E9F /* AppNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationController.swift; sourceTree = "<group>"; };
 		403D71FB21AAE371008D9E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		403D71FD21AAE375008D9E9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		403D720021AAE375008D9E9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -39,6 +43,10 @@
 		403D720721AAE375008D9E9F /* EventyayOrganizerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EventyayOrganizerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403D720B21AAE375008D9E9F /* Eventyay_OrganizerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eventyay_OrganizerUITests.swift; sourceTree = "<group>"; };
 		403D720D21AAE376008D9E9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		407E723421AFF81F00667B83 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		407E723621AFF86E00667B83 /* LoginVCMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCMethods.swift; sourceTree = "<group>"; };
+		407E723921B0015E00667B83 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		407E723B21B0020300667B83 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4E59065288D7D7AE05B20526 /* Pods-EventyayOrganizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer.debug.xcconfig"; sourceTree = "<group>"; };
 		5E323D8B8C9F2A87D027E2CD /* Pods-EventyayOrganizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventyayOrganizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,12 +106,11 @@
 		403D71F521AAE370008D9E9F /* EventyayOrganizer */ = {
 			isa = PBXGroup;
 			children = (
-				403D71F621AAE370008D9E9F /* AppDelegate.swift */,
-				403D71F821AAE371008D9E9F /* ViewController.swift */,
-				403D71FA21AAE371008D9E9F /* Main.storyboard */,
-				403D71FD21AAE375008D9E9F /* Assets.xcassets */,
-				403D71FF21AAE375008D9E9F /* LaunchScreen.storyboard */,
-				403D720221AAE375008D9E9F /* Info.plist */,
+				407E723121AFF64200667B83 /* Supporting Files */,
+				407E723321AFF68C00667B83 /* Controllers */,
+				407E723021AFF61D00667B83 /* Storyboards */,
+				407E723221AFF66C00667B83 /* Assets */,
+				407E723D21B0023A00667B83 /* Helpers */,
 			);
 			path = EventyayOrganizer;
 			sourceTree = "<group>";
@@ -115,6 +122,59 @@
 				403D720D21AAE376008D9E9F /* Info.plist */,
 			);
 			path = EventyayOrganizerUITests;
+			sourceTree = "<group>";
+		};
+		407E723021AFF61D00667B83 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				403D71FA21AAE371008D9E9F /* Main.storyboard */,
+				403D71FF21AAE375008D9E9F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		407E723121AFF64200667B83 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403D71F621AAE370008D9E9F /* AppDelegate.swift */,
+				403D720221AAE375008D9E9F /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		407E723221AFF66C00667B83 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				403D71FD21AAE375008D9E9F /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		407E723321AFF68C00667B83 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				403D71F821AAE371008D9E9F /* AppNavigationController.swift */,
+				407E723821AFF89200667B83 /* LoginController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		407E723821AFF89200667B83 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				407E723421AFF81F00667B83 /* LoginViewController.swift */,
+				407E723621AFF86E00667B83 /* LoginVCMethods.swift */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		407E723D21B0023A00667B83 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				407E723921B0015E00667B83 /* Colors.swift */,
+				407E723B21B0020300667B83 /* Extensions.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		C90AFB930213855CFD590E3B /* Pods */ = {
@@ -314,7 +374,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403D71F921AAE371008D9E9F /* ViewController.swift in Sources */,
+				407E723521AFF81F00667B83 /* LoginViewController.swift in Sources */,
+				407E723C21B0020300667B83 /* Extensions.swift in Sources */,
+				407E723A21B0015E00667B83 /* Colors.swift in Sources */,
+				407E723721AFF86E00667B83 /* LoginVCMethods.swift in Sources */,
+				403D71F921AAE371008D9E9F /* AppNavigationController.swift in Sources */,
 				403D71F721AAE370008D9E9F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -483,7 +547,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
-				INFOPLIST_FILE = EventyayOrganizer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EventyayOrganizer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,7 +567,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7P4K4M8A4Q;
-				INFOPLIST_FILE = EventyayOrganizer/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EventyayOrganizer/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
