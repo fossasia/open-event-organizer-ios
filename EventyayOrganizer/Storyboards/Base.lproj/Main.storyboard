@@ -1,15 +1,116 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sm8-zQ-8tz">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="r2s-l5-T8k">
+            <objects>
+                <viewController id="sm8-zQ-8tz" customClass="WelcomeViewController" customModule="EventyayOrganizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E6V-Sz-CyU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let's get started" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kwt-Mt-hYq">
+                                <rect key="frame" x="19" y="84" width="337" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" name="OrgaBlue"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qCM-IW-LO3" customClass="TextField" customModule="Material">
+                                <rect key="frame" x="19" y="179" width="337" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="https://open-event-api.herokuapp.com/v1/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aa1-w6-jl1" userLabel="lblPersonalServerAddress">
+                                <rect key="frame" x="51" y="242" width="305" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LSr-ur-gtL" customClass="TextField" customModule="Material">
+                                <rect key="frame" x="19" y="293" width="337" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gYa-DG-Epj">
+                                <rect key="frame" x="19" y="353" width="337" height="44"/>
+                                <color key="backgroundColor" name="OrgaBlue"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="cu5-oc-g7f"/>
+                                </constraints>
+                                <state key="normal" title="GET STARTED">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onGetStartedClicked:" destination="sm8-zQ-8tz" eventType="touchUpInside" id="0ZS-vc-TSc"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NeN-Rd-jEC" userLabel="Personal Server Button" customClass="M13Checkbox" customModule="M13Checkbox">
+                                <rect key="frame" x="19" y="239" width="24" height="24"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="mdW-I6-G4a"/>
+                                    <constraint firstAttribute="width" constant="24" id="zCh-KO-WN5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="_IBCheckState" value="Checked"/>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="personalServerToggleClicked:" destination="sm8-zQ-8tz" eventType="valueChanged" id="P3M-7F-NcY"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up or log in to create and manage events" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6eM-l8-Bdf">
+                                <rect key="frame" x="19" y="138" width="277.5" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Aa1-w6-jl1" firstAttribute="leading" secondItem="NeN-Rd-jEC" secondAttribute="trailing" constant="8" id="0Le-Bf-Cj6"/>
+                            <constraint firstItem="NeN-Rd-jEC" firstAttribute="leading" secondItem="JNa-IJ-UaK" secondAttribute="leading" constant="19" id="0m0-mA-ZjD"/>
+                            <constraint firstItem="Kwt-Mt-hYq" firstAttribute="leading" secondItem="JNa-IJ-UaK" secondAttribute="leading" constant="19" id="4Mv-Ku-Laz"/>
+                            <constraint firstItem="NeN-Rd-jEC" firstAttribute="top" secondItem="qCM-IW-LO3" secondAttribute="bottom" constant="30" id="AyV-26-Mup"/>
+                            <constraint firstItem="qCM-IW-LO3" firstAttribute="leading" secondItem="JNa-IJ-UaK" secondAttribute="leading" constant="19" id="Hhg-4k-dA4"/>
+                            <constraint firstItem="qCM-IW-LO3" firstAttribute="top" secondItem="6eM-l8-Bdf" secondAttribute="bottom" constant="25" id="KwD-Jx-PoQ"/>
+                            <constraint firstItem="Aa1-w6-jl1" firstAttribute="top" secondItem="qCM-IW-LO3" secondAttribute="bottom" constant="33" id="MQh-Ap-vjn"/>
+                            <constraint firstItem="6eM-l8-Bdf" firstAttribute="top" secondItem="Kwt-Mt-hYq" secondAttribute="bottom" constant="18" id="NIi-zU-aaa"/>
+                            <constraint firstItem="LSr-ur-gtL" firstAttribute="leading" secondItem="JNa-IJ-UaK" secondAttribute="leading" constant="19" id="NWZ-kD-iIs"/>
+                            <constraint firstItem="JNa-IJ-UaK" firstAttribute="trailing" secondItem="Kwt-Mt-hYq" secondAttribute="trailing" constant="19" id="WWW-Hm-Hci"/>
+                            <constraint firstItem="JNa-IJ-UaK" firstAttribute="trailing" secondItem="LSr-ur-gtL" secondAttribute="trailing" constant="19" id="Y45-yM-QZA"/>
+                            <constraint firstItem="Kwt-Mt-hYq" firstAttribute="top" secondItem="JNa-IJ-UaK" secondAttribute="top" constant="64" id="YY9-Ys-gE7"/>
+                            <constraint firstItem="JNa-IJ-UaK" firstAttribute="trailing" secondItem="Aa1-w6-jl1" secondAttribute="trailing" constant="19" id="hUF-oJ-jcZ"/>
+                            <constraint firstItem="gYa-DG-Epj" firstAttribute="leading" secondItem="JNa-IJ-UaK" secondAttribute="leading" constant="19" id="i8Q-Sc-qR3"/>
+                            <constraint firstItem="6eM-l8-Bdf" firstAttribute="leading" secondItem="JNa-IJ-UaK" secondAttribute="leading" constant="19" id="lI8-1E-aSn"/>
+                            <constraint firstItem="JNa-IJ-UaK" firstAttribute="trailing" secondItem="qCM-IW-LO3" secondAttribute="trailing" constant="19" id="m3f-S5-RVW"/>
+                            <constraint firstItem="gYa-DG-Epj" firstAttribute="top" secondItem="LSr-ur-gtL" secondAttribute="bottom" constant="30" id="rjq-Jv-ffM"/>
+                            <constraint firstItem="JNa-IJ-UaK" firstAttribute="trailing" secondItem="gYa-DG-Epj" secondAttribute="trailing" constant="19" id="sIs-UB-ZfA"/>
+                            <constraint firstItem="LSr-ur-gtL" firstAttribute="top" secondItem="NeN-Rd-jEC" secondAttribute="bottom" constant="30" id="wiX-Fd-se1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JNa-IJ-UaK"/>
+                    </view>
+                    <connections>
+                        <outlet property="customURLField" destination="LSr-ur-gtL" id="KB3-v4-Nii"/>
+                        <outlet property="emailTextField" destination="qCM-IW-LO3" id="cqu-jD-e3J"/>
+                        <outlet property="lblPersonalServerAddress" destination="Aa1-w6-jl1" id="lHM-eL-FqV"/>
+                        <outlet property="personalServerToggle" destination="NeN-Rd-jEC" id="YZf-07-MZN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6lb-lb-pgb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-978.39999999999998" y="26.53673163418291"/>
+        </scene>
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
