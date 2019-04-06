@@ -53,7 +53,12 @@ extension SignUpViewController {
         addressTextField.placeholderActiveColor = .defaultColor()
         addressTextField.dividerNormalColor = .iOSGray()
         addressTextField.dividerActiveColor = .defaultColor()
+        addressTextField.text = "https://api.eventyay.com/v1/"
         addressTextField.textColor = .black
+    }
+    
+    func prepareToggleRadioButton(){
+        personalServerButton.checkState = .checked
     }
 
     @IBAction func toggleRadioButtons(_ sender: M13Checkbox) {
