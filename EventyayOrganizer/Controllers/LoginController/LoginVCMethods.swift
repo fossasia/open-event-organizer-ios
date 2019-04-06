@@ -38,6 +38,10 @@ extension LoginViewController {
         passwordTextField.visibilityIconButton?.tintColor = .iOSGray()
         passwordTextField.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: .editingChanged)
     }
+    
+    func prepareToggleRadioButton(){
+        personalServerButton.checkState = .checked
+    }
 
     // Configures Address Text Field
     func prepareAddressField() {
@@ -45,6 +49,7 @@ extension LoginViewController {
         addressTextField.placeholderActiveColor = .defaultColor()
         addressTextField.dividerNormalColor = .iOSGray()
         addressTextField.dividerActiveColor = .defaultColor()
+        addressTextField.text = "https://open-event-api-dev.herokuapp.com/"
         addressTextField.textColor = .black
     }
 

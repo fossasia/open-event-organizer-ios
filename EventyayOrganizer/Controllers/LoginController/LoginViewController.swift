@@ -18,16 +18,17 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var passwordTextField: TextField!
     @IBOutlet weak var personalServerButton: M13Checkbox!
     @IBOutlet weak var loginButton: RaisedButton!
-    @IBOutlet weak var signUpButton: FlatButton!
-    @IBOutlet weak var forgotButton: FlatButton!
     @IBOutlet weak var addressTextField: TextField!
-
+    @IBOutlet weak var fogotPasswordButton: FlatButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
         addTapGesture()
         prepareEmailField()
         preparePasswordField()
+        prepareToggleRadioButton()
         prepareAddressField()
     }
 
