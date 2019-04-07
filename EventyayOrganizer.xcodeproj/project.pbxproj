@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1E13972254502100464918 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E13962254502100464918 /* UserService.swift */; };
+		2F1E139C2254514700464918 /* EmailAvailabilityResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1E139B2254514700464918 /* EmailAvailabilityResponse.swift */; };
 		4020D0D921B10CF9006A7967 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020D0D821B10CF9006A7967 /* SignUpViewController.swift */; };
 		4020D0DB21B10D2D006A7967 /* SignUpVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4020D0DA21B10D2D006A7967 /* SignUpVCMethods.swift */; };
 		403D71F721AAE370008D9E9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403D71F621AAE370008D9E9F /* AppDelegate.swift */; };
@@ -19,6 +21,9 @@
 		407E723721AFF86E00667B83 /* LoginVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723621AFF86E00667B83 /* LoginVCMethods.swift */; };
 		407E723A21B0015E00667B83 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723921B0015E00667B83 /* Colors.swift */; };
 		407E723C21B0020300667B83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723B21B0020300667B83 /* Extensions.swift */; };
+		4E6D8E9B224DEFF000587392 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9A224DEFF000587392 /* WelcomeViewController.swift */; };
+		4E6D8E9D224DF01800587392 /* WelcomeVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9C224DF01800587392 /* WelcomeVCMethods.swift */; };
+		4E6D8EA0224E092900587392 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9F224E092900587392 /* APIClient.swift */; };
 		8BA35EC6DC4D9196E0C598CA /* Pods_EventyayOrganizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */; };
 		BEE49886A23120F4577C7772 /* Pods_EventyayOrganizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */; };
 /* End PBXBuildFile section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F1E13962254502100464918 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		2F1E139B2254514700464918 /* EmailAvailabilityResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailAvailabilityResponse.swift; sourceTree = "<group>"; };
 		3B48E7757D136D9306528CD4 /* Pods-EventyayOrganizer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizer.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer.release.xcconfig"; sourceTree = "<group>"; };
 		4020D0D821B10CF9006A7967 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4020D0DA21B10D2D006A7967 /* SignUpVCMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVCMethods.swift; sourceTree = "<group>"; };
@@ -52,6 +59,9 @@
 		407E723921B0015E00667B83 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		407E723B21B0020300667B83 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4E59065288D7D7AE05B20526 /* Pods-EventyayOrganizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer.debug.xcconfig"; sourceTree = "<group>"; };
+		4E6D8E9A224DEFF000587392 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		4E6D8E9C224DF01800587392 /* WelcomeVCMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVCMethods.swift; sourceTree = "<group>"; };
+		4E6D8E9F224E092900587392 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		5E323D8B8C9F2A87D027E2CD /* Pods-EventyayOrganizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventyayOrganizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73F39BE5BCAC0554BF47070 /* Pods-EventyayOrganizerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +97,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2F1E13952254500600464918 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E13962254502100464918 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2F1E13992254512300464918 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E139A2254512900464918 /* Responses */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F1E139A2254512900464918 /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E139B2254514700464918 /* EmailAvailabilityResponse.swift */,
+			);
+			path = Responses;
+			sourceTree = "<group>";
+		};
 		4020D0DC21B10D4B006A7967 /* SignUpController */ = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +153,8 @@
 		403D71F521AAE370008D9E9F /* EventyayOrganizer */ = {
 			isa = PBXGroup;
 			children = (
+				2F1E13992254512300464918 /* Models */,
+				4E6D8E9E224E091000587392 /* Network */,
 				407E723121AFF64200667B83 /* Supporting Files */,
 				407E723321AFF68C00667B83 /* Controllers */,
 				407E723021AFF61D00667B83 /* Storyboards */,
@@ -167,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				403D71F821AAE371008D9E9F /* AppNavigationController.swift */,
+				4E6D8E99224DEEAA00587392 /* WelcomeController */,
 				407E723821AFF89200667B83 /* LoginController */,
 				4020D0DC21B10D4B006A7967 /* SignUpController */,
 			);
@@ -189,6 +226,24 @@
 				407E723B21B0020300667B83 /* Extensions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		4E6D8E99224DEEAA00587392 /* WelcomeController */ = {
+			isa = PBXGroup;
+			children = (
+				4E6D8E9A224DEFF000587392 /* WelcomeViewController.swift */,
+				4E6D8E9C224DF01800587392 /* WelcomeVCMethods.swift */,
+			);
+			path = WelcomeController;
+			sourceTree = "<group>";
+		};
+		4E6D8E9E224E091000587392 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				2F1E13952254500600464918 /* Services */,
+				4E6D8E9F224E092900587392 /* APIClient.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		C90AFB930213855CFD590E3B /* Pods */ = {
@@ -309,7 +364,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -318,7 +373,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27B750F2C1C426A8F8742869 /* [CP] Check Pods Manifest.lock */ = {
@@ -363,22 +418,28 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
 				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
 				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/M13Checkbox.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -393,9 +454,14 @@
 				407E723C21B0020300667B83 /* Extensions.swift in Sources */,
 				4020D0DB21B10D2D006A7967 /* SignUpVCMethods.swift in Sources */,
 				407E723A21B0015E00667B83 /* Colors.swift in Sources */,
+				4E6D8EA0224E092900587392 /* APIClient.swift in Sources */,
 				407E723721AFF86E00667B83 /* LoginVCMethods.swift in Sources */,
+				4E6D8E9D224DF01800587392 /* WelcomeVCMethods.swift in Sources */,
+				2F1E13972254502100464918 /* UserService.swift in Sources */,
+				2F1E139C2254514700464918 /* EmailAvailabilityResponse.swift in Sources */,
 				403D71F921AAE371008D9E9F /* AppNavigationController.swift in Sources */,
 				403D71F721AAE370008D9E9F /* AppDelegate.swift in Sources */,
+				4E6D8E9B224DEFF000587392 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

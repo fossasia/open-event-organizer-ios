@@ -53,20 +53,25 @@ extension SignUpViewController {
         addressTextField.placeholderActiveColor = .defaultColor()
         addressTextField.dividerNormalColor = .iOSGray()
         addressTextField.dividerActiveColor = .defaultColor()
+        addressTextField.text = ControllerConstants.CommonURL.Debug.baseURL
         addressTextField.textColor = .black
+    }
+    
+    func prepareToggleRadioButton(){
+        personalServerButton.checkState = .checked
     }
 
     @IBAction func toggleRadioButtons(_ sender: M13Checkbox) {
         if sender.checkState == .checked {
             addressTextField.tag = 1
             addressTextField.isUserInteractionEnabled = false
-            addressTextField.text = "https://api.eventyay.com/v1/"
+            addressTextField.text = ControllerConstants.CommonURL.Debug.baseURL
             addressTextField.placeholder = ""
         } else {
             addressTextField.tag = 0
             addressTextField.isUserInteractionEnabled = true
             addressTextField.text = ""
-            addressTextField.placeholder = "Custom Server URL"
+            addressTextField.placeholder = ControllerConstants.Placeholders.customServerURL
         }
     }
 
