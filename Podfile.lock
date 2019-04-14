@@ -8,16 +8,19 @@ PODS:
   - Motion (2.0.0):
     - Motion/Core (= 2.0.0)
   - Motion/Core (2.0.0)
+  - SwiftLint (0.31.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
   - M13Checkbox (from `https://github.com/Marxon13/M13Checkbox.git`, branch `swift_4_2`)
   - Material (from `https://github.com/CosmicMind/Material.git`, branch `development`)
   - Motion (from `https://github.com/CosmicMind/Motion.git`, branch `development`)
+  - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - SwiftLint
 
 EXTERNAL SOURCES:
   M13Checkbox:
@@ -46,7 +49,8 @@ SPEC CHECKSUMS:
   M13Checkbox: 82182615a76646475b451ebe448a998f77f8cc6e
   Material: 2b34ad176b7b7f4304f67f2135b91880783dfa10
   Motion: 22d4a1fa76b12d7d706c6b1d1e0a33784a28c012
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
 
-PODFILE CHECKSUM: 436072f132cfe5a447b5b4be52fd114f92975472
+PODFILE CHECKSUM: 3a9ddbe29e3c6051c873a625d1ac10a6b4e3fae8
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

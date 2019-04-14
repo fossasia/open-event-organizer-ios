@@ -6,11 +6,10 @@
 //  Copyright © 2018 FOSSAsia. All rights reserved.
 //
 
-import UIKit
 import M13Checkbox
+import UIKit
 
 extension LoginViewController {
-
     func addTapGesture() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         view.addGestureRecognizer(tap)
@@ -86,7 +85,7 @@ extension LoginViewController {
                 emailTextField.dividerActiveColor = .green
             }
         } else if textField == passwordTextField, let password = passwordTextField.text {
-            if password.isEmpty || password.count < 6 || password.count > 64{
+            if password.isEmpty || password.count < 6 || password.count > 64 {
                 passwordTextField.dividerActiveColor = .red
             } else {
                 passwordTextField.dividerActiveColor = .green
@@ -109,5 +108,4 @@ extension LoginViewController {
     func clearFields() {
         passwordTextField.text = ""
     }
-
 }
