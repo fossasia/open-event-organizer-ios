@@ -19,6 +19,7 @@
 		407E723721AFF86E00667B83 /* LoginVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723621AFF86E00667B83 /* LoginVCMethods.swift */; };
 		407E723A21B0015E00667B83 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723921B0015E00667B83 /* Colors.swift */; };
 		407E723C21B0020300667B83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723B21B0020300667B83 /* Extensions.swift */; };
+		4E58CB7722609D70007BBE56 /* ControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E58CB7622609D70007BBE56 /* ControllerConstants.swift */; };
 		8BA35EC6DC4D9196E0C598CA /* Pods_EventyayOrganizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */; };
 		BEE49886A23120F4577C7772 /* Pods_EventyayOrganizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */; };
 /* End PBXBuildFile section */
@@ -51,6 +52,7 @@
 		407E723621AFF86E00667B83 /* LoginVCMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVCMethods.swift; sourceTree = "<group>"; };
 		407E723921B0015E00667B83 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		407E723B21B0020300667B83 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4E58CB7622609D70007BBE56 /* ControllerConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerConstants.swift; sourceTree = "<group>"; };
 		4E59065288D7D7AE05B20526 /* Pods-EventyayOrganizer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer.debug.xcconfig"; sourceTree = "<group>"; };
 		5E323D8B8C9F2A87D027E2CD /* Pods-EventyayOrganizerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EventyayOrganizerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EventyayOrganizer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -187,6 +189,7 @@
 			children = (
 				407E723921B0015E00667B83 /* Colors.swift */,
 				407E723B21B0020300667B83 /* Extensions.swift */,
+				4E58CB7622609D70007BBE56 /* ControllerConstants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 			buildConfigurationList = 403D721021AAE376008D9E9F /* Build configuration list for PBXNativeTarget "EventyayOrganizer" */;
 			buildPhases = (
 				27B750F2C1C426A8F8742869 /* [CP] Check Pods Manifest.lock */,
+				4E2BC5F72263B5F5004106B1 /* ShellScript */,
 				403D71EF21AAE370008D9E9F /* Sources */,
 				403D71F021AAE370008D9E9F /* Frameworks */,
 				403D71F121AAE370008D9E9F /* Resources */,
@@ -309,7 +313,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -318,7 +322,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27B750F2C1C426A8F8742869 /* [CP] Check Pods Manifest.lock */ = {
@@ -338,6 +342,23 @@
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
+		};
+		4E2BC5F72263B5F5004106B1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
 		};
 		7BDD60F1CF811E05925F95BD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -363,7 +384,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
 				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
@@ -378,7 +399,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -389,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				407E723521AFF81F00667B83 /* LoginViewController.swift in Sources */,
+				4E58CB7722609D70007BBE56 /* ControllerConstants.swift in Sources */,
 				4020D0D921B10CF9006A7967 /* SignUpViewController.swift in Sources */,
 				407E723C21B0020300667B83 /* Extensions.swift in Sources */,
 				4020D0DB21B10D2D006A7967 /* SignUpVCMethods.swift in Sources */,

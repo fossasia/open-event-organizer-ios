@@ -6,13 +6,13 @@
 //  Copyright © 2018 FOSSAsia. All rights reserved.
 //
 
-import UIKit
 import M13Checkbox
+import UIKit
 
 extension SignUpViewController {
-
     func addTapGesture() {
-        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
+        let tap: UITapGestureRecognizer =
+            UITapGestureRecognizer(target: self, action: #selector(LoginViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
     }
 
@@ -71,7 +71,7 @@ extension SignUpViewController {
     }
 
     @IBAction func goBackToLoginScreen() {
-        self.dismiss(animated: true, completion: nil)
+        dismiss(animated: true, completion: nil)
     }
 
     func prepareSignUpButton() {
@@ -79,9 +79,7 @@ extension SignUpViewController {
     }
 
     // Sign Up User
-    @objc func performSignUp() {
-
-    }
+    @objc func performSignUp() {}
 
     // function called on return button click of keyboard
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -129,5 +127,4 @@ extension SignUpViewController {
             }
         }
     }
-    
 }
