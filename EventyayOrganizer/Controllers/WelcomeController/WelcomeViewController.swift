@@ -6,41 +6,30 @@
 //  Copyright © 2019 FOSSAsia. All rights reserved.
 //
 
-import UIKit
 import Alamofire
-import Material
 import M13Checkbox
+import Material
 import NVActivityIndicatorView
-
+import UIKit
 
 class WelcomeViewController: UIViewController {
-    
     var indicatorView: NVActivityIndicatorView!
-    
-    @IBOutlet weak var personalServerButton: M13Checkbox!
-    @IBOutlet weak var addressTextField: TextField!
-    @IBOutlet weak var emailTextField: TextField!
-    
-    
-    
-    
+    @IBOutlet var personalServerButton: M13Checkbox!
+    @IBOutlet var addressTextField: TextField!
+    @IBOutlet var emailTextField: TextField!
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
+
         navigationController?.setNavigationBarHidden(true, animated: false)
     }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         addTapGesture()
         prepareEmailField()
         prepareCustomURLField()
         prepareToggleRadioButton()
         prepareIndicatorView()
-        
     }
-    
-    
-    
 }

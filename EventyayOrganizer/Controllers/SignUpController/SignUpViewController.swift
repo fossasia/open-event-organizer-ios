@@ -6,29 +6,24 @@
 //  Copyright © 2018 FOSSAsia. All rights reserved.
 //
 
-import UIKit
-import Material
 import M13Checkbox
+import Material
+import UIKit
 
 class SignUpViewController: UIViewController {
+    @IBOutlet var firstNameTextField: TextField!
+    @IBOutlet var lastNameTextField: TextField!
+    @IBOutlet var emailTextField: TextField!
+    @IBOutlet var passwordTextField: TextField!
+    @IBOutlet var addressTextField: TextField!
+    @IBOutlet var personalServerButton: M13Checkbox!
+    @IBOutlet var signUpButton: RaisedButton!
 
-    @IBOutlet weak var firstNameTextField: TextField!
-    @IBOutlet weak var lastNameTextField: TextField!
-    @IBOutlet weak var emailTextField: TextField!
-    @IBOutlet weak var passwordTextField: TextField!
-    @IBOutlet weak var addressTextField: TextField!
-    @IBOutlet weak var personalServerButton: M13Checkbox!
-    @IBOutlet weak var signUpButton: RaisedButton!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
         addTapGesture()
-        
         prepareFields()
         prepareToggleRadioButton()
         prepareSignUpButton()
     }
-
 }

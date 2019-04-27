@@ -10,15 +10,12 @@ import UIKit
 import Material
 
 class AppNavigationController: NavigationController {
-
     // Configures Navigation Controller
     open override func prepare() {
         super.prepare()
-        guard let v = navigationBar as? NavigationBar else {
+        guard let navBarView = navigationBar as? NavigationBar else {
             return
         }
-        v.depthPreset = .depth1
+        navBarView.depthPreset = .depth1
     }
-
 }
-

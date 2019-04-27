@@ -9,7 +9,6 @@
 import UIKit
 
 extension UIColor {
-
     class func defaultColor() -> UIColor {
         return UIColor.hexStringToUIColor(hex: "#2996F3")
     }
@@ -41,5 +40,4 @@ extension UIColor {
     class func iOSGray() -> UIColor {
         return UIColor.hexStringToUIColor(hex: "#5F6368")
     }
-
 }

@@ -2,6 +2,7 @@ platform :ios, '12.0'
 
 def shared_pods
 	pod 'Alamofire', '~> 4.7'
+  pod 'SwiftLint'
 end
 
 target 'EventyayOrganizer' do

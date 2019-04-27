@@ -13,20 +13,18 @@ class EmailAvailabilityResponse: Mappable {
     private var availability: String?
     var error: String?
     var isAvailable: Bool? {
-        get {
-            return availability?.toBool()
-        }
+        return availability?.toBool()
     }
+
     init() {}
-    
+
     required init?(map: Map) {
         availability <- map["result"]
         error <- map["error"]
     }
-    
+
     func mapping(map: Map) {
         availability <- map["result"]
         error <- map["error"]
     }
-    
 }
