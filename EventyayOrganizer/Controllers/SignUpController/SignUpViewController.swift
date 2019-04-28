@@ -18,7 +18,7 @@ class SignUpViewController: UIViewController {
     @IBOutlet var addressTextField: TextField!
     @IBOutlet var personalServerButton: M13Checkbox!
     @IBOutlet var signUpButton: RaisedButton!
-
+  
     override func viewDidLoad() {
         super.viewDidLoad()
         addTapGesture()
