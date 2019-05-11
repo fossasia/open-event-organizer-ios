@@ -38,12 +38,17 @@ extension LoginViewController {
         passwordTextField.addTarget(self, action: #selector(textFieldDidChange(textField:)), for: .editingChanged)
     }
 
+    func prepareToggleRadioButton() {
+        personalServerButton.checkState = .checked
+    }
+
     // Configures Address Text Field
     func prepareAddressField() {
         addressTextField.placeholderNormalColor = .iOSGray()
         addressTextField.placeholderActiveColor = .defaultColor()
         addressTextField.dividerNormalColor = .iOSGray()
         addressTextField.dividerActiveColor = .defaultColor()
+        addressTextField.text = ControllerConstants.CommonURL.Debug.baseURL
         addressTextField.textColor = .black
     }
 
@@ -51,13 +56,13 @@ extension LoginViewController {
         if sender.checkState == .checked {
             addressTextField.tag = 1
             addressTextField.isUserInteractionEnabled = false
-            addressTextField.text = "https://open-event-api-dev.herokuapp.com/"
+            addressTextField.text = ControllerConstants.CommonURL.Debug.baseURL
             addressTextField.placeholder = ""
         } else {
             addressTextField.tag = 0
             addressTextField.isUserInteractionEnabled = true
             addressTextField.text = ""
-            addressTextField.placeholder = "Custom Server URL"
+            addressTextField.placeholder = ControllerConstants.Placeholders.customServerURL
         }
     }
 

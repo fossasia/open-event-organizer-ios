@@ -95,8 +95,7 @@ extension String {
                 let matches = detector.matches(in: self,
                                                options: [],
                                                range: NSRange(location: 0, length: self.count))
-
-//                NSMakeRange(0, self.count)
+                //                NSMakeRange(0, self.count)
                 for match in matches {
                     let url = (self as NSString).substring(with: match.range)
                     return url
@@ -112,7 +111,6 @@ extension String {
         do {
             let documentType = NSAttributedString.DocumentReadingOptionKey.documentType
             let characterEncoding = NSAttributedString.DocumentReadingOptionKey.characterEncoding
-
             return try NSAttributedString(data: Data(utf8),
                                           options: [documentType: NSAttributedString.DocumentType.html,
                                                     characterEncoding: String.Encoding.utf8.rawValue],
@@ -122,7 +120,6 @@ extension String {
             return nil
         }
     }
-
     var html2String: String {
         return self.html2AttributedString?.string ?? ""
     }

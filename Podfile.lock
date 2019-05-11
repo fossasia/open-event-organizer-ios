@@ -1,5 +1,8 @@
 PODS:
   - Alamofire (4.7.3)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
   - M13Checkbox (3.2.2)
   - Material (3.0.0):
     - Material/Core (= 3.0.0)
@@ -8,18 +11,28 @@ PODS:
   - Motion (2.0.0):
     - Motion/Core (= 2.0.0)
   - Motion/Core (2.0.0)
+  - NVActivityIndicatorView (4.6.1):
+    - NVActivityIndicatorView/Presenter (= 4.6.1)
+  - NVActivityIndicatorView/Presenter (4.6.1)
+  - ObjectMapper (3.4.2)
   - SwiftLint (0.31.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
+  - AlamofireObjectMapper (~> 5.2)
   - M13Checkbox (from `https://github.com/Marxon13/M13Checkbox.git`, branch `swift_4_2`)
   - Material (from `https://github.com/CosmicMind/Material.git`, branch `development`)
   - Motion (from `https://github.com/CosmicMind/Motion.git`, branch `development`)
+  - NVActivityIndicatorView
+  - ObjectMapper (~> 3.4)
   - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - AlamofireObjectMapper
+    - NVActivityIndicatorView
+    - ObjectMapper
     - SwiftLint
 
 EXTERNAL SOURCES:
@@ -46,11 +59,14 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
   M13Checkbox: 82182615a76646475b451ebe448a998f77f8cc6e
   Material: 2b34ad176b7b7f4304f67f2135b91880783dfa10
   Motion: 22d4a1fa76b12d7d706c6b1d1e0a33784a28c012
+  NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
   SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
 
-PODFILE CHECKSUM: 3a9ddbe29e3c6051c873a625d1ac10a6b4e3fae8
+PODFILE CHECKSUM: 365cb61113528df1a40b57d24476ce4432bbe17d
 
 COCOAPODS: 1.6.1

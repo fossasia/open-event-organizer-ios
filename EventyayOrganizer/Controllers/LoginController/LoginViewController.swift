@@ -17,16 +17,15 @@ class LoginViewController: UIViewController {
     @IBOutlet var passwordTextField: TextField!
     @IBOutlet var personalServerButton: M13Checkbox!
     @IBOutlet var loginButton: RaisedButton!
-    @IBOutlet var signUpButton: FlatButton!
-    @IBOutlet var forgotButton: FlatButton!
     @IBOutlet var addressTextField: TextField!
+    @IBOutlet var fogotPasswordButton: FlatButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
         addTapGesture()
         prepareEmailField()
         preparePasswordField()
+        prepareToggleRadioButton()
         prepareAddressField()
     }
 }

@@ -18,13 +18,12 @@ class SignUpViewController: UIViewController {
     @IBOutlet var addressTextField: TextField!
     @IBOutlet var personalServerButton: M13Checkbox!
     @IBOutlet var signUpButton: RaisedButton!
-    @IBOutlet var backToLoginButton: FlatButton!
-
+  
     override func viewDidLoad() {
         super.viewDidLoad()
-
         addTapGesture()
         prepareFields()
+        prepareToggleRadioButton()
         prepareSignUpButton()
     }
 }
