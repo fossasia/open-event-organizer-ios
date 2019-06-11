@@ -14,6 +14,7 @@ target 'EventyayOrganizer' do
   pod 'ObjectMapper', '~> 3.4'
   pod 'AlamofireObjectMapper', '~> 5.2'
   pod 'NVActivityIndicatorView'
+  pod 'SVProgressHUD'
   shared_pods
 end
 
