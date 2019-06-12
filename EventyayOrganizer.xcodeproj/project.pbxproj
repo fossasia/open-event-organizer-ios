@@ -21,10 +21,10 @@
 		407E723721AFF86E00667B83 /* LoginVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723621AFF86E00667B83 /* LoginVCMethods.swift */; };
 		407E723A21B0015E00667B83 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723921B0015E00667B83 /* Colors.swift */; };
 		407E723C21B0020300667B83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407E723B21B0020300667B83 /* Extensions.swift */; };
+		4E58CB7722609D70007BBE56 /* ControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E58CB7622609D70007BBE56 /* ControllerConstants.swift */; };
 		4E6D8E9B224DEFF000587392 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9A224DEFF000587392 /* WelcomeViewController.swift */; };
 		4E6D8E9D224DF01800587392 /* WelcomeVCMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9C224DF01800587392 /* WelcomeVCMethods.swift */; };
 		4E6D8EA0224E092900587392 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6D8E9F224E092900587392 /* APIClient.swift */; };
-		4E58CB7722609D70007BBE56 /* ControllerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E58CB7622609D70007BBE56 /* ControllerConstants.swift */; };
 		8BA35EC6DC4D9196E0C598CA /* Pods_EventyayOrganizerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E936F84AAB3105A13B587FAD /* Pods_EventyayOrganizerUITests.framework */; };
 		BEE49886A23120F4577C7772 /* Pods_EventyayOrganizer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A334443640AE74382B74EBAC /* Pods_EventyayOrganizer.framework */; };
 /* End PBXBuildFile section */
@@ -267,9 +267,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 403D721021AAE376008D9E9F /* Build configuration list for PBXNativeTarget "EventyayOrganizer" */;
 			buildPhases = (
-				4E8D4F0A2274768D00A2B1DE /* ShellScript */,
 				27B750F2C1C426A8F8742869 /* [CP] Check Pods Manifest.lock */,
-				4E2BC5F72263B5F5004106B1 /* ShellScript */,
+				4E8D4F0A2274768D00A2B1DE /* ShellScript */,
 				403D71EF21AAE370008D9E9F /* Sources */,
 				403D71F021AAE370008D9E9F /* Frameworks */,
 				403D71F121AAE370008D9E9F /* Resources */,
@@ -369,7 +368,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -378,7 +377,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizerUITests/Pods-EventyayOrganizerUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		27B750F2C1C426A8F8742869 /* [CP] Check Pods Manifest.lock */ = {
@@ -399,17 +398,12 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-
 		4E8D4F0A2274768D00A2B1DE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-			);
-			outputFileListPaths = (
 			);
 			outputPaths = (
 			);
@@ -441,7 +435,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/M13Checkbox/M13Checkbox.framework",
@@ -449,6 +443,7 @@
 				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -459,10 +454,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EventyayOrganizer/Pods-EventyayOrganizer-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

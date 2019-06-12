@@ -15,6 +15,7 @@ PODS:
     - NVActivityIndicatorView/Presenter (= 4.6.1)
   - NVActivityIndicatorView/Presenter (4.6.1)
   - ObjectMapper (3.4.2)
+  - SVProgressHUD (2.2.5)
   - SwiftLint (0.31.0)
 
 DEPENDENCIES:
@@ -25,6 +26,7 @@ DEPENDENCIES:
   - Motion (from `https://github.com/CosmicMind/Motion.git`, branch `development`)
   - NVActivityIndicatorView
   - ObjectMapper (~> 3.4)
+  - SVProgressHUD
   - SwiftLint
 
 SPEC REPOS:
@@ -33,6 +35,7 @@ SPEC REPOS:
     - AlamofireObjectMapper
     - NVActivityIndicatorView
     - ObjectMapper
+    - SVProgressHUD
     - SwiftLint
 
 EXTERNAL SOURCES:
@@ -65,8 +68,9 @@ SPEC CHECKSUMS:
   Motion: 22d4a1fa76b12d7d706c6b1d1e0a33784a28c012
   NVActivityIndicatorView: 4ca19fccc84595a78957336a086d00a49be6ce61
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
 
-PODFILE CHECKSUM: 365cb61113528df1a40b57d24476ce4432bbe17d
+PODFILE CHECKSUM: 662d237a6a69e6dd67394d62945c640aec8d1ae9
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.5.3
