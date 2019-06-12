@@ -57,9 +57,11 @@ extension WelcomeViewController {
     }
     @IBAction func onGetStartedClicked(_ sender: Any) {
         //loading HUD
+        UIApplication.shared.beginIgnoringInteractionEvents()
         SVProgressHUD.show(withStatus: "Logging In")
         UserService.checkEmailAvailability(emailTextField.text!) { [unowned self] response in
             //stop loading HUD
+            UIApplication.shared.endIgnoringInteractionEvents()
             SVProgressHUD.dismiss()
             if response.error ?? nil != nil {
                 print("error: \(String(describing: response.error))")
