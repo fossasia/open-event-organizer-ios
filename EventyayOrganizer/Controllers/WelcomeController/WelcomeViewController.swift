@@ -30,6 +30,5 @@ class WelcomeViewController: UIViewController {
         prepareEmailField()
         prepareCustomURLField()
         prepareToggleRadioButton()
-        prepareIndicatorView()
     }
 }
