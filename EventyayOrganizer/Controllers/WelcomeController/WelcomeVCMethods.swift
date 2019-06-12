@@ -9,22 +9,13 @@
 import Alamofire
 import M13Checkbox
 import Material
-import NVActivityIndicatorView
+import SVProgressHUD
 import UIKit
 
 extension WelcomeViewController {
     func addTapGesture() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(self.dismissKeyboard))
         view.addGestureRecognizer(tap)
-    }
-    // Config Indicator
-    func prepareIndicatorView() {
-        indicatorView = NVActivityIndicatorView(frame: CGRect(center: CGPoint(x: self.view.frame.width / 2,
-                                                                              y: self.view.frame.height / 2),
-                                                              size: CGSize(width: 50,
-                                                                           height: 50)))
-        indicatorView.backgroundColor = UIColor(displayP3Red: 0, green: 0, blue: 0, alpha: 0.6)
-        view.addSubview(indicatorView)
     }
     // Config Email Field
     func prepareEmailField() {
@@ -65,9 +56,11 @@ extension WelcomeViewController {
         }
     }
     @IBAction func onGetStartedClicked(_ sender: Any) {
-        indicatorView.startAnimating()
+        SVProgressHUD.show(withStatus: "Logging In")
+        UIApplication.shared.beginIgnoringInteractionEvents()
         UserService.checkEmailAvailability(emailTextField.text!) { [unowned self] response in
-            self.indicatorView.stopAnimating()
+            SVProgressHUD.dismiss()
+            UIApplication.shared.endIgnoringInteractionEvents()
             if response.error ?? nil != nil {
                 print("error: \(String(describing: response.error))")
             } else {

@@ -13,7 +13,7 @@ target 'EventyayOrganizer' do
   pod 'M13Checkbox', :git => 'https://github.com/Marxon13/M13Checkbox.git', :branch => 'swift_4_2'
   pod 'ObjectMapper', '~> 3.4'
   pod 'AlamofireObjectMapper', '~> 5.2'
-  pod 'NVActivityIndicatorView'
+  pod 'SVProgressHUD'
   shared_pods
 end
 
