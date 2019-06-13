@@ -9,8 +9,8 @@
 import Alamofire
 import M13Checkbox
 import Material
-import UIKit
 import SVProgressHUD
+import UIKit
 
 extension WelcomeViewController {
     func addTapGesture() {
@@ -56,13 +56,11 @@ extension WelcomeViewController {
         }
     }
     @IBAction func onGetStartedClicked(_ sender: Any) {
-        //loading HUD
-        UIApplication.shared.beginIgnoringInteractionEvents()
         SVProgressHUD.show(withStatus: "Logging In")
+        UIApplication.shared.beginIgnoringInteractionEvents()
         UserService.checkEmailAvailability(emailTextField.text!) { [unowned self] response in
-            //stop loading HUD
-            UIApplication.shared.endIgnoringInteractionEvents()
             SVProgressHUD.dismiss()
+            UIApplication.shared.endIgnoringInteractionEvents()
             if response.error ?? nil != nil {
                 print("error: \(String(describing: response.error))")
             } else {
