@@ -1,4 +1,4 @@
-platform :ios, '12.0'
+platform :ios, '13.6'
 
 def shared_pods
   pod 'Alamofire'
