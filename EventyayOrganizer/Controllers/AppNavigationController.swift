@@ -13,9 +13,9 @@ class AppNavigationController: NavigationController {
     // Configures Navigation Controller
     open override func prepare() {
         super.prepare()
-        guard let navBarView = navigationBar as? NavigationBar else {
+        guard let navigationBarView = navigationBar as? NavigationBar else {
             return
         }
-        navBarView.depthPreset = .depth1
+        navigationBarView.depthPreset = .depth1
     }
 }
